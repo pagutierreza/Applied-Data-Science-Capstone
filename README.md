@@ -1,6 +1,4 @@
 # Applied-Data-Science-Capstone
-Repository used to host all the code needed for the course capstone.
-
 To properly see the notebooks please follow these links:
 
 Segmenting and Clustering Neighborhoods in Toronto.
