@@ -10,12 +10,12 @@ The solution of this problem is aimed towards a possible investor who has these 
  
 The concept "safe" in this particular context means: finding the type of restaurant and neighbourhood that would improve the chances of the restaurant being highly rated according to Foursquare. 
 
-To achieve the goal of determing the type and location of restaurant, I will try to model Foursquare restaurant ratings in Toronto. I decided to build this model because from previous observations of acquaintances who opened venues similar to a restaurant, I noticed they chose the venue and location out of convenience and personal taste, not if the market values that particular combination of location and type of business. They chose the location because it was close to where they lived, the type of business was a long time ambition and/or saw similar business nearby.
+To achieve the goal of determing the type and location of restaurant, I will try to model Foursquare restaurant ratings in Toronto. I decided to build this model because from previous observations of acquaintances who opened venues similar to a restaurant, I noticed they chose the business and location out of convenience and personal taste, not if the market values that particular combination of location and type of business. They chose the location because it was close to where they lived, the type of business was a long time ambition and/or saw similar businesses nearby.
 
-Another reason I chose to build this particular model is to reduce some uncertainty when a person attempts to start a business, in this case a restaurant. Out of all the possible decisions a person can make, what are the decisions that can have a bigger impact on the success of the business? How is the success of the business going to be measured? I hope the approach I will use in this model can reduce the amount of uncertainty involved, by giving an approximation of possible outcomes derived from choosing a neighbourhood and type of restaurant, in particular the restaurant rating.
+Another reason I chose to build this particular model is to try to reduce some uncertainty when a person attempts to start a business, in this case a restaurant. Out of all the possible decisions a person can make, what are the decisions that can have a bigger impact on the success of the business? How is the success of the business going to be measured? I hope the approach I will use in this model can reduce the amount of uncertainty involved, by giving an approximation of possible outcomes derived from choosing a neighbourhood and type of restaurant, in particular the restaurant rating.
 
 ## Data.
-In order to build a model than can extrapolate the restaurant rating in Toronto, I will use three groups of data:
+In order to build a model than can extrapolate the restaurant ratings in Toronto, I will use the following groups of data:
 
  1. Average commercial rental cost in Toronto per neighbourhood.
  2. Population description of each neighbourhood.
@@ -29,10 +29,10 @@ In order to build a model than can extrapolate the restaurant rating in Toronto,
  This information will be obtained from the 2016 Toronto Census, readily available from Toronto's government page. 
  
  ### Restaurant traits and ratings.
- Foursquare will be used to obtain the restaurant's rating, categories and possibly related traits. The search will be made on a neighbourhood basis, tweaking the most search radius for each neighbourhood to get the most possible amount of data related to restaurants.
+ Foursquare will be used to obtain the restaurant's rating, categories and other relevant traits. The search will be made on a neighbourhood basis, tweaking the  search radius for each neighbourhood to get the most possible amount of data related to restaurants.
  
  ### Geographic data of Toronto's neighbourhoods.
- This information will be obtained from Toronto's government page, it's a GEOjson file.
+ This information will be obtained from Toronto's government page. It's a GEOjson file that describes the geometry of each neighbourhood in Toronto. This information will be used to fine tune the searh radius and to segmentate the rental venues locations.
  
 
 
