@@ -23,7 +23,7 @@ In order to build a model than can extrapolate the restaurant ratings in Toronto
  4. Geographic data of Toronto's neighbourhoods.
  
  ### Average commercial rental cost in Toronto.
- This information will be obtained by using Selenium to scrape commecial rent webpages. The search will be based in Toronto, and no further analysis will be made to determine how appropiate the venue might be for a restaurant. The goal is to get a baseline of how much it costs to rent a commercial venue in each neighbourhood of Toronto. Rental cost aside from determining the location of the restaurant, might also determine the price tier the restaurant is going to have.
+ This information will be obtained by using Selenium to scrape commecial rent webpages. The search will be based in Toronto, and no further analysis will be made to determine how appropiate the venue might be for a restaurant. The goal is to get a baseline of how much it costs to rent a commercial venue in each neighbourhood of Toronto. Rental cost; aside from determining the location of the restaurant, might also determine the price tier the restaurant might have.
  
  ### Population description of each neighbourhood.
  This information will be obtained from the 2016 Toronto Census, readily available from Toronto's government page. I will focus on information regarding the population of each neighbourhood, age segregation, average income, population density. These traits may affect the type of restaurant that's preffered on each neighborhood. I will not take into account any race related statistics.
