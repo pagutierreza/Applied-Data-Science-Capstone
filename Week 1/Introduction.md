@@ -12,7 +12,7 @@ The concept "safe" in this particular context means: finding the type of restaur
 
 To achieve the goal of determing the type and location of restaurant, I will try to model Foursquare restaurant ratings in Toronto. I decided to build this model because from previous observations of acquaintances who opened venues similar to a restaurant, I noticed they chose the business and location out of convenience and personal taste, not if the market values that particular combination of location and type of business. They chose the location because it was close to where they lived, the type of business was a long time ambition and/or saw similar businesses nearby.
 
-Another reason I chose to build this particular model is to try to reduce some uncertainty when a person attempts to start a business, in this case a restaurant. Out of all the possible decisions a person can make, what are the decisions that can have a bigger impact on the success of the business? How is the success of the business going to be measured? I hope the approach I will use in this model can reduce the amount of uncertainty involved, by giving an approximation of possible outcomes derived from choosing a neighbourhood and type of restaurant, in particular the restaurant rating.
+Another reason I chose to build this particular model is to try to reduce some uncertainty when a person attempts to start a business, in this case a restaurant. Out of all the possible decisions a person can make, what are the decisions that can have a bigger impact on the success of the business? How is the success of the business going to be measured? I hope the approach I will use in this model can reduce the amount of uncertainty involved, by giving an approximation of possible outcomes derived from choosing a neighbourhood and type of restaurant. In this case, success is going to be measured by the restaurant rating.
 
 ## Data.
 In order to build a model than can extrapolate the restaurant ratings in Toronto, I will use the following groups of data:
@@ -23,7 +23,7 @@ In order to build a model than can extrapolate the restaurant ratings in Toronto
  4. Geographic data of Toronto's neighbourhoods.
  
  ### Average commercial rental cost in Toronto.
- This information will be obtained by using Selenium to scrape commecial rent webpages. The search will be based in Toronto, and no further analysis will be made to determine how appropiate the venue might be for a restaurant. The goal is to get a baseline of how much it costs to rent a commercial venue in each neighbourhood in Toronto.
+ This information will be obtained by using Selenium to scrape commecial rent webpages. The search will be based in Toronto, and no further analysis will be made to determine how appropiate the venue might be for a restaurant. The goal is to get a baseline of how much it costs to rent a commercial venue in each neighbourhood of Toronto.
  
  ### Population description of each neighbourhood.
  This information will be obtained from the 2016 Toronto Census, readily available from Toronto's government page. 
