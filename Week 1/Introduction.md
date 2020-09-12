@@ -26,7 +26,7 @@ In order to build a model than can extrapolate the restaurant ratings in Toronto
  This information will be obtained by using Selenium to scrape commecial rent webpages. The search will be based in Toronto, and no further analysis will be made to determine how appropiate the venue might be for a restaurant. The goal is to get a baseline of how much it costs to rent a commercial venue in each neighbourhood of Toronto.
  
  ### Population description of each neighbourhood.
- This information will be obtained from the 2016 Toronto Census, readily available from Toronto's government page. 
+ This information will be obtained from the 2016 Toronto Census, readily available from Toronto's government page. The I will look for information regarding the population of each neighbourhood, age segregation, average income, population density. These traits may affect the type of restaurant that's preffered on each neighborhood.
  
  ### Restaurant traits and ratings.
  Foursquare will be used to obtain the restaurant's rating, categories and other relevant traits. The search will be made on a neighbourhood basis, tweaking the  search radius for each neighbourhood to get the most possible amount of data related to restaurants.
